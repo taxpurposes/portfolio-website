@@ -184,3 +184,31 @@ h2 {
 .spotify-playlist {
     padding-top: 8rem;
 }
+
+/* cat facts*/
+
+.cat-carrier {
+    display: flexbox;
+    align-items: left;
+    justify-content: space-between;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+}
+
+.cat-carrier button {
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Syne Mono';
+    background-color: aquamarine;
+    color: darkolivegreen;
+    border-width: 0px;
+}
+
+.cat-carrier button:hover{
+    opacity: 0.75;
+}
+
+.cat-carrier button:active {
+    color: grey;
+    opacity: 0.50;
+}

@@ -21,5 +21,20 @@
             </ul>
         </nav>
     </header>
+    <main class="cat-carrier">
+        <button type="button" id="button">Get a Cat Fact</button>
+    </main>
+    <script>
+        const catFacts = ['Miso is cute.', 'Hachi is cute.', 'Sometimes Miso farts real loud and it\'s funny.', 'Hachi is a tweaker and loses her mind when we play.']
+
+        const catFactGenerator = () => {
+            let fact = Math.floor(Math.random() *4);
+            return catFacts[fact]
+        };
+        let button = document.getElementById('button');
+        button.onclick = function(){
+            alert(catFactGenerator());
+        }
+    </script>
 </body>
 </html>

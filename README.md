@@ -1,0 +1,1 @@
+This is my portfolio page I'm doing as a practice project. How'd you find this? 0_0

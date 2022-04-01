@@ -178,3 +178,9 @@ h2 {
 .contact-list i:hover {
     opacity: 0.8;
 }
+
+/* music page */
+
+.spotify-playlist {
+    padding-top: 8rem;
+}

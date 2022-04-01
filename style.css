@@ -1,3 +1,39 @@
-h1 {
-    color: green;
+html {
+    font-size: 16px;
+    background-image: linear-gradient(to right, pink, tan);
+    color: white;
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Malignant;
+    src: url('./resources/Malignant-6YaGD.ttf')
+}
+
+@font-face {
+    font-family: MarshallTheDead;
+    src: url('./resources/MarshalTheDead-ywjxM.ttf')
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 5rem;
+    position: fixed;
+    opacity: 1.0;
+}
+
+
+header h1.name {
+    font-family: MarshallTheDead;
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(aquamarine, DarkOliveGreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }

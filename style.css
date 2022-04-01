@@ -27,6 +27,7 @@ header {
     margin-bottom: 5rem;
     position: fixed;
     opacity: 1.0;
+    z-index: 1;
 }
 
 header h1.name {
@@ -73,10 +74,9 @@ header nav li:active {
     align-items: center;
     justify-content: space-between;
     padding-top: 8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    /*height: 35rem;*/
 }
 
 .about-me {
@@ -95,4 +95,86 @@ h2 {
     height: auto;
     border-radius: 1rem;
     opacity: 0.85;
+}
+
+/*projects container*/
+
+.projects-container {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.projects-container h2 {
+    width: 100%;
+    text-align: left;
+}
+
+.projects-container ul {
+    width: 100%;
+    text-align: left;
+}
+
+/*skills container*/
+
+.skills-container {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.skills-container h2 {
+    width: 100%;
+    text-align: left;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-container i {
+    font-size: 3rem;
+}
+
+/*contact me page*/
+
+.contact-me-container {
+    display: flexbox;
+    align-items: left;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    padding-left: 8rem;
+}
+
+.contact-me-container h2 {
+    width: 100%;
+    text-align: left;
+}
+
+.contact-me-container p {
+    text-align: left;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.contact-list i {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+
+.contact-list i:hover {
+    opacity: 0.8;
 }

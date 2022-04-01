@@ -17,6 +17,7 @@ html {
     src: url('./resources/MarshalTheDead-ywjxM.ttf')
 }
 
+/* header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,6 @@ header {
     opacity: 1.0;
 }
 
-
 header h1.name {
     font-family: MarshallTheDead;
     font-size: 3.5rem;
@@ -36,4 +36,60 @@ header h1.name {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+header h1.name:hover {
+    opacity: 0.75;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-flex;
+    font-size: 1.15rem;
+    padding-right: 25px;
+    align-content: space-between;
+}
+
+header nav li:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+header nav li:active {
+    color: #fcba03;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+/* about me styles */
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /*height: 35rem;*/
+}
+
+.about-me {
+    flex-direction: row;
+    width: 45%;
+}
+
+h2 {
+    color: black;
+    font-size: 1.75rem;
+}
+
+.self-portrait {
+    width: 50%;
+    height: auto;
 }

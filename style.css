@@ -82,6 +82,7 @@ header nav li:active {
 .about-me {
     flex-direction: row;
     width: 45%;
+    text-align: left;
 }
 
 h2 {
@@ -90,6 +91,8 @@ h2 {
 }
 
 .self-portrait {
-    width: 50%;
+    width: 45%;
     height: auto;
+    border-radius: 1rem;
+    opacity: 0.85;
 }

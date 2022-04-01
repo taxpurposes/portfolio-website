@@ -23,6 +23,7 @@
     </header>
     <main class="cat-carrier">
         <button type="button" id="button">Get a Cat Fact</button>
+        <p></p>
     </main>
     <script>
         const catFacts = ['Miso is cute.', 'Hachi is cute.', 'Sometimes Miso farts real loud and it\'s funny.', 'Hachi is a tweaker and loses her mind when we play.']
@@ -33,7 +34,7 @@
         };
         let button = document.getElementById('button');
         button.onclick = function(){
-            alert(catFactGenerator());
+            document.querySelector('p').innerHTML = catFactGenerator();
         }
     </script>
 </body>
